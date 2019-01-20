@@ -1,13 +1,15 @@
 ﻿
 using System;
 
-namespace CsharpPlayground
+namespace Generics
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Let's poke around variance!");
+
+
         }
     }
 }
