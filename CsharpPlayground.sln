@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpEightFeatures", "CSha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Varieties", "Varieties\Varieties.csproj", "{3E575347-B752-4DEC-81EE-C4227A6BF1C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{C606C46A-A73C-419D-B1F0-737C6DEB316C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3E575347-B752-4DEC-81EE-C4227A6BF1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E575347-B752-4DEC-81EE-C4227A6BF1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E575347-B752-4DEC-81EE-C4227A6BF1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C606C46A-A73C-419D-B1F0-737C6DEB316C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C606C46A-A73C-419D-B1F0-737C6DEB316C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C606C46A-A73C-419D-B1F0-737C6DEB316C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C606C46A-A73C-419D-B1F0-737C6DEB316C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
