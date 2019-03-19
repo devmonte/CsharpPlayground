@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "CsharpPlaygroun
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes", "DataTypes\DataTypes.csproj", "{082D7621-9FAA-40C8-822A-8B3EFEA118AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Varieties", "Varieties\Varieties.csproj", "{26B77A92-AF3C-4F41-9A77-CA42ABD4899C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEightFeatures", "CSharpEightFeatures\CSharpEightFeatures.csproj", "{1BCC9CAB-7735-4E20-A25A-B099E7363588}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{082D7621-9FAA-40C8-822A-8B3EFEA118AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{082D7621-9FAA-40C8-822A-8B3EFEA118AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{082D7621-9FAA-40C8-822A-8B3EFEA118AA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26B77A92-AF3C-4F41-9A77-CA42ABD4899C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26B77A92-AF3C-4F41-9A77-CA42ABD4899C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26B77A92-AF3C-4F41-9A77-CA42ABD4899C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26B77A92-AF3C-4F41-9A77-CA42ABD4899C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BCC9CAB-7735-4E20-A25A-B099E7363588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BCC9CAB-7735-4E20-A25A-B099E7363588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BCC9CAB-7735-4E20-A25A-B099E7363588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BCC9CAB-7735-4E20-A25A-B099E7363588}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
