@@ -8,6 +8,6 @@ namespace Generics
 {
     public interface IMovementableContravariant<in T>
     {
-        
+        void Move(T toMove);
     }
 }

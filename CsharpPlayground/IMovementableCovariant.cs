@@ -8,6 +8,6 @@ namespace Generics
 {
     public interface IMovementableCovariant<out T>
     {
-        
+        T Move(string destination);
     }
 }

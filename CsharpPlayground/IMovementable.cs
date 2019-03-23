@@ -8,6 +8,6 @@ namespace Generics
 {
     public interface IMovementable<T> where T : Creature
     {
-        
+        void Move();
     }
 }
