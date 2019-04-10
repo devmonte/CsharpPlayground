@@ -18,8 +18,10 @@ namespace Exceptions
                 Console.WriteLine($"{sender}, {eventArgs}");
             };
 
+            var tryFinallyCheck = new TryFinally();
             try
             {
+                tryFinallyCheck.CheckTryFinally();
                 //throw new NotImplementedException();
                 var t = new Thread(() => throw new NotImplementedException());
                 t.Start();
