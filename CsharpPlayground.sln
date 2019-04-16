@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Varieties", "Varieties\Vari
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\Collections.csproj", "{C606C46A-A73C-419D-B1F0-737C6DEB316C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{3936BABA-B00D-40F3-A31A-501FC3AF0D20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions", "Exceptions\Exceptions.csproj", "{3936BABA-B00D-40F3-A31A-501FC3AF0D20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesAndLambdas", "DelegatesAndLambdas\DelegatesAndLambdas.csproj", "{3DE40F00-A52C-4C86-A30C-E74139DC9E30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{3936BABA-B00D-40F3-A31A-501FC3AF0D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3936BABA-B00D-40F3-A31A-501FC3AF0D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3936BABA-B00D-40F3-A31A-501FC3AF0D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE40F00-A52C-4C86-A30C-E74139DC9E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE40F00-A52C-4C86-A30C-E74139DC9E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE40F00-A52C-4C86-A30C-E74139DC9E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE40F00-A52C-4C86-A30C-E74139DC9E30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
