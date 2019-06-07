@@ -6,7 +6,13 @@ namespace Varieties
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Start varieties example!");
+
+            new PlayWithCulture().Demo();
+
+
+            Console.WriteLine("End of examples!");
+            Console.ReadKey();
         }
     }
 }
