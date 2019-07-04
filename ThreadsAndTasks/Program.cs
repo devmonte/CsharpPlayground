@@ -16,8 +16,15 @@ namespace ThreadsAndTasks
             t1.Start();
             t2.Start();
 
+            Console.WriteLine("End of first example!");
+
+            //////Cancellation
+            var cancellationExample = new TaskCancellationExample();
+            cancellationExample.Demonstrate();
+
             Console.WriteLine("End of World!");
             Console.ReadKey();
+
         }
 
         static void DoSomethingImportant()
