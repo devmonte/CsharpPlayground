@@ -8,23 +8,26 @@ namespace ThreadsAndTasks
         private static readonly object Guard = new object();
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine($"Start {Thread.CurrentThread.ManagedThreadId}");
-            var t1 = new Thread(DoSomethingImportant);
-            var t2 = new Thread(DoSomethingImportant);
+            //Console.WriteLine("Hello World!");
+            //Console.WriteLine($"Start {Thread.CurrentThread.ManagedThreadId}");
+            //var t1 = new Thread(DoSomethingImportant);
+            //var t2 = new Thread(DoSomethingImportant);
 
-            t1.Start();
-            t2.Start();
+            //t1.Start();
+            //t2.Start();
 
-            Console.WriteLine("End of first example!");
+            //Console.WriteLine("End of first example!");
 
-            //////Cancellation
-            var cancellationExample = new TaskCancellationExample();
-            cancellationExample.Demonstrate();
+            ////////Cancellation
+            //var cancellationExample = new TaskCancellationExample();
+            //cancellationExample.Demonstrate();
+
+            Console.WriteLine("Check null in async!");
+            new AsyncNullReturn().Example().Wait();
+
 
             Console.WriteLine("End of World!");
             Console.ReadKey();
-
         }
 
         static void DoSomethingImportant()
