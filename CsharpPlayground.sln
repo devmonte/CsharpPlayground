@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions", "Exceptions\Ex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesAndLambdas", "DelegatesAndLambdas\DelegatesAndLambdas.csproj", "{3DE40F00-A52C-4C86-A30C-E74139DC9E30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsAndTasks", "ThreadsAndTasks\ThreadsAndTasks.csproj", "{8CD27D3C-7E8F-49EE-A330-A73F38AF9915}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsAndTasks", "ThreadsAndTasks\ThreadsAndTasks.csproj", "{8CD27D3C-7E8F-49EE-A330-A73F38AF9915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceAndMore", "InheritanceAndMore\InheritanceAndMore.csproj", "{793D74CF-723E-4F7C-8ECF-8839ACED43AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{8CD27D3C-7E8F-49EE-A330-A73F38AF9915}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CD27D3C-7E8F-49EE-A330-A73F38AF9915}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CD27D3C-7E8F-49EE-A330-A73F38AF9915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793D74CF-723E-4F7C-8ECF-8839ACED43AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793D74CF-723E-4F7C-8ECF-8839ACED43AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793D74CF-723E-4F7C-8ECF-8839ACED43AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793D74CF-723E-4F7C-8ECF-8839ACED43AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
