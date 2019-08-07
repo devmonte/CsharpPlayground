@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CSharpEightFeatures.PatternMatchingTypes;
+using CSharpEightFeatures.PatternMatching.PatternMatchingTypes;
 
-namespace CSharpEightFeatures
+namespace CSharpEightFeatures.PatternMatching
 {
     public class PatternMatching
     {

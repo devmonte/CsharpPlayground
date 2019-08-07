@@ -1,4 +1,4 @@
-﻿namespace CSharpEightFeatures.PatternMatchingTypes
+﻿namespace CSharpEightFeatures.PatternMatching.PatternMatchingTypes
 {
     public class Animal
     {

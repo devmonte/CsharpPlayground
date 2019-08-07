@@ -1,13 +1,9 @@
-﻿#nullable enable
+﻿#nullable disable
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CSharpEightFeatures
+namespace CSharpEightFeatures.NullableReferenceTypes
 {
-    public class NullableReference
+    public class DisabledNullableReference
     {
         private string _firstSentence;
         private string? _secondSentence;
