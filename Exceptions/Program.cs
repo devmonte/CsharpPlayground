@@ -23,8 +23,8 @@ namespace Exceptions
             {
                 tryFinallyCheck.CheckTryFinally();
                 //throw new NotImplementedException();
-                var t = new Thread(() => throw new NotImplementedException());
-                t.Start();
+                //var t = new Thread(() => throw new NotImplementedException());
+                //t.Start();
             }
             catch (Exception e)
             {

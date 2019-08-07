@@ -14,6 +14,7 @@ namespace DelegatesAndLambdas
             test("Greg");
             test += (s) => { Console.WriteLine($"Hello {s}"); };
             test = (d) => { Console.WriteLine($"Hello {d}"); };
+            test += _ => Console.WriteLine($"Hell yeah!");
             test("Tom!");
 
             Console.ReadKey();

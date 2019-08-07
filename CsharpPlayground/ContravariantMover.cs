@@ -8,9 +8,6 @@ namespace Generics
 {
     public class ContravariantMover<T> : IMovementableContravariant<T>
     {
-        public void Move(T toMove)
-        {
-            Console.WriteLine(":)");
-        }
+        public void Move(T toMove) => Console.WriteLine(":)");
     }
 }
