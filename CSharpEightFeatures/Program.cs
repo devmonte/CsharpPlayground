@@ -1,4 +1,5 @@
 ﻿using System;
+using CSharpEightFeatures.AsyncStreams;
 using CSharpEightFeatures.DisposableRefStruct;
 
 namespace CSharpEightFeatures
@@ -17,6 +18,11 @@ namespace CSharpEightFeatures
             new DisposableRefStructExample().Show();
             Console.WriteLine("End of disposable ref struct example!");
 
+            Console.WriteLine("Async stream example!");
+            new AsyncStreamConsumer().Consume().Wait();
+            Console.WriteLine("End of Async stream example!");
+
+            Console.ReadKey();
         }
     }
 }
