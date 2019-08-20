@@ -1,6 +1,7 @@
 ﻿using System;
 using CSharpEightFeatures.AsyncStreams;
 using CSharpEightFeatures.DisposableRefStruct;
+using CSharpEightFeatures.IndicesAndRanges;
 
 namespace CSharpEightFeatures
 {
@@ -21,6 +22,10 @@ namespace CSharpEightFeatures
             Console.WriteLine("Async stream example!");
             new AsyncStreamConsumer().Consume().Wait();
             Console.WriteLine("End of Async stream example!");
+
+            Console.WriteLine("Indices and ranges example!");
+            new IndicesAndRangesExample().Show();
+            Console.WriteLine("Indices and ranges  example!");
 
             Console.ReadKey();
         }
