@@ -16,7 +16,11 @@ namespace Varieties
             Console.WriteLine(myCar.Name);
             Console.WriteLine("End of reference type example!");
 
-
+            Console.WriteLine("Start params example!");
+            var t1 = new TestClass();
+            var t2 = new TestClass();
+            new ParamsKeyword().Example(t1, t2);
+            Console.WriteLine("End of params example!");
 
             Console.ReadKey();
         }
