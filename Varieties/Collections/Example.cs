@@ -5,19 +5,9 @@ using System.Linq;
 
 namespace Collections
 {
-    class Program
+    public class Example
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-            //CheckRemovingStringsFromList();
-
-            //RemoveDuringIteration();
-            CheckConcurrentDictionary();
-            Console.ReadKey();
-        }
-
-        static void CheckRemovingStringsFromList()
+        public static void CheckRemovingStringsFromList()
         {
             var testList = new List<string> { "one", "two", "three" };
             Console.WriteLine(testList.Count);
@@ -25,7 +15,7 @@ namespace Collections
             Console.WriteLine(testList.Count);
         }
 
-        static void RemoveDuringIteration()
+        public static void RemoveDuringIteration()
         {
             var testList = new List<string> { "one", "two", "three", "four", "five" };
             for (int i = 0; i < testList.Count; i++)
@@ -37,7 +27,7 @@ namespace Collections
 
         }
 
-        static void CheckConcurrentDictionary()
+        public static void CheckConcurrentDictionary()
         {
             var testDict = new ConcurrentDictionary<string, bool>();
             testDict.TryAdd("one", true);
@@ -51,6 +41,27 @@ namespace Collections
                 Console.WriteLine(testDict.Keys.ElementAt(i));
             }
 
+        }
+
+        public static void CheckGroupByLinq()
+        {
+            var t1 = new Test { Id = 1, Name = "ABC" };
+            var t2 = new Test { Id = 1, Name = "ABC" };
+            var t3 = new Test { Id = 2, Name = "ABCD" };
+            var t4 = new Test { Id = 2, Name = "ABCD" };
+
+            var list = new List<Test> { t1, t2, t3, t4 };
+
+
+            var filterOut = list.GroupBy(x => x.Id)
+                .Select(x => x.First())
+                .ToList();
+        }
+
+        public class Test
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
         }
     }
 }

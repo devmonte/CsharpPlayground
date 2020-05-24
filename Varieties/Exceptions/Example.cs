@@ -3,9 +3,9 @@ using System.Threading;
 
 namespace Exceptions
 {
-    class Program
+    class Example
     {
-        static void Main(string[] args)
+        static void Show(string[] args)
         {
             Console.WriteLine("Hello World!");
 

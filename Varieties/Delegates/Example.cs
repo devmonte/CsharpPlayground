@@ -2,11 +2,11 @@
 
 namespace DelegatesAndLambdas
 {
-    class Program
+    class Example
     {
         public delegate void TestDelegate(string name);
 
-        static void Main(string[] args)
+        static void Show()
         {
             Console.WriteLine("Hello World!");
             TestDelegate test = PrintName;

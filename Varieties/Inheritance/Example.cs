@@ -2,9 +2,9 @@
 
 namespace InheritanceAndMore
 {
-    class Program
+    class Example
     {
-        static void Main(string[] args)
+        static void Show(string[] args)
         {
             Console.WriteLine("Hello World!");
 
@@ -14,8 +14,6 @@ namespace InheritanceAndMore
             objA2.Show();
             C objC = new D();
             objC.Show();
-
-
 
             Console.ReadKey();
         }

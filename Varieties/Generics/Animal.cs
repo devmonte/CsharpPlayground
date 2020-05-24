@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataTypes
+namespace Generics
 {
-    public class ValueTypesDemo
+    public class Animal : Creature
     {
-        public int IntType  { get; set; }
-
+        public string Type { get; set; }
     }
 }

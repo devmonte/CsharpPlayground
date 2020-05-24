@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataTypes
+namespace Generics
 {
-    public struct StructDemo
+    public interface IMovementableCovariant<out T>
     {
-        
+        T Move(string destination);
     }
 }
